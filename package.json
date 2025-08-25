@@ -1,0 +1,53 @@
+{
+  "name": "nodejs-ai-assistant",
+  "version": "1.0.0",
+  "description": " modern AI-powered chat application built with Stream Chat, OpenAI, and web search capabilities. This full-stack application provides an intelligent writing assistant that can help with content creation, research, and real-time collaboration.",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --exec \"npm run start \" --ext ts --watch src "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahelipaul17/ai_saas_chat_app_with_agents_and_stream.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "js",
+    "react",
+    "gemini",
+    "api",
+    "tavily",
+    "api",
+    "gostream.io"
+  ],
+  "author": "Saheli Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahelipaul17/ai_saas_chat_app_with_agents_and_stream/issues"
+  },
+  "homepage": "https://github.com/sahelipaul17/ai_saas_chat_app_with_agents_and_stream#readme",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "openai": "^4.73.1",
+    "stream-chat": "^8.60.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.23",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
