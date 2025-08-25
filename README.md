@@ -23,7 +23,7 @@ Agent management system with automatic cleanup
 # 📋 Prerequisites
 Node.js 20 or higher
 npm or yarn package manager
-GetStream.io account (free tier available)
+GetStream.io account 
 Gemini API account
 Tavily API account (for web search)
 
@@ -104,7 +104,3 @@ Environment Variables: Sensitive data protection
 CORS Configuration: Cross-origin request security
 Token Expiration: Automatic token refresh system
 Input Validation: Server-side validation for all requests
-
-# Backend
-cd nodejs-ai-assistant
-npm run start
